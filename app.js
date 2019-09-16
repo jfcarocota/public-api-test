@@ -34,6 +34,6 @@ let getNasa = async ()=>{
     nasaContentData.innerText = data.explanation;
 };
 
-//getSLAgency();
+getSLAgency();
 
 getNasa();
